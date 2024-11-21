@@ -9,7 +9,7 @@ for(let product of products){
  <div class="product">
     <h4>${product.name}</h4>
     <h3> $${product.price}</h3>
-    <img src="${product.image}">
+    <img src="${product.image}" alt="${product.image}">
     <button id="${product.id}"> Click</button>
 </div>
  `
