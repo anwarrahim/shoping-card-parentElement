@@ -17,6 +17,7 @@ for(let product of products){
 }
 
 
+
 container.innerHTML = productsHTML
 
 container.addEventListener('click', (e)=>{
