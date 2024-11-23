@@ -29,6 +29,7 @@ clearBtn.addEventListener('click', ()=>{
     const productClearAll = document.getElementsByClassName('product')
     for(let product of productClearAll){
         product.classList.remove('purchased')
+        product.classList.add('on-offer')
     }
 })
 
